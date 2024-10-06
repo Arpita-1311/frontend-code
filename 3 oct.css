@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+height: 400px;
+width: 400px;
+background-color: rgba(0, 255, 255, 0.918);
+}
+.flower{
+    background:#ec7e1698 ;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    border-radius:0% 100% 0% 100% /0% 100% 0% 100% ;
+transform-origin: top left;
+
+}
+@keyframes arpita{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+#f1{
+    animation-name: arpita;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+#f2{
+    animation-name: arpita;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1.5s;
+}
+#f3{
+    animation-name: arpita;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+#f4{
+    animation-name: arpita;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 2.5s;
+}
+#f5{
+    animation-name: arpita;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+#f6{
+    animation-name: arpita;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 3.5s;
+}
